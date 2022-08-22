@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <View
+            android:layout_width="70dp"
+            android:background="@color/teal_700"
+            android:layout_alignParentTop="true"
+            android:id="@+id/tv01"
+            android:layout_height="100dp"/>
+
+        <View
+            android:id="@+id/tv02"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:background="@color/teal_700" />
+        <View
+            android:layout_width="80dp"
+            android:background="@color/teal_700"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/tv03"
+            android:layout_height="120dp"/>
+        <View
+            android:layout_width="90dp"
+            android:background="@color/teal_700"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/tv04"
+            android:layout_height="100dp"/>
+
+        <View
+            android:id="@+id/tv05"
+            android:layout_width="75dp"
+            android:layout_height="69dp"
+            android:layout_below="@id/tv01"
+            android:layout_toEndOf="@id/tv01"
+            android:background="@color/red" />
+        <View
+                android:layout_height="85dp"
+                android:background="@color/red"
+                android:layout_alignParentEnd="true"
+            android:layout_below="@id/tv02"
+                android:layout_width="49dp"/>
+        <View
+                android:layout_height="59dp"
+            android:background="@color/red"
+             android:layout_toEndOf="@id/tv03"
+            android:layout_alignParentBottom="true"
+                android:layout_width="76dp"/>
+        <View android:layout_height="45dp"
+            android:background="@color/red"
+            android:layout_above="@id/tv04"
+            android:layout_alignParentEnd="true"
+                android:layout_width="75dp"/>
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="55dp"
+            android:id="@+id/tv_09"
+            android:layout_below="@id/tv05"
+            android:layout_toStartOf="@id/tv05"
+            android:background="@color/blue" />
+
+        <View
+            android:layout_width="45dp"
+            android:layout_height="55dp"
+            android:id="@+id/tv_10"
+            android:layout_toEndOf="@id/tv03"
+            android:layout_alignTop="@id/tv03"
+            android:background="@color/blue" />
+        <View
+            android:layout_width="45dp"
+            android:layout_height="55dp"
+            android:id="@+id/tv_11"
+            android:layout_toStartOf="@id/tv04"
+            android:layout_alignTop="@id/tv04"
+            android:background="@color/blue" />
+
+        <View
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_centerInParent="true"
+            android:background="@color/iceCream" />
+        <View
+                android:layout_width="75dp"
+                android:background="@color/iceCream"
+                android:layout_centerHorizontal="true"
+                android:layout_height="75dp"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/tv05"
+            android:layout_toEndOf="@id/tv05"
+            android:src="@drawable/icon_filght" />
+        <View
+                android:layout_width="85dp"
+                android:background="@color/iceCream"
+            android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_height="81dp"/>
+        <ImageView
+            android:layout_height="120dp"
+            android:src="@drawable/anonymous"
+               android:layout_width="85dp"/>
+
+</RelativeLayout>
